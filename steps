@@ -1,0 +1,17 @@
+1) run the code after every 10 seconds
+
+2) save the data in json format
+
+    path = '/tmp/json_data/' -> /tmp/deleted_json_data
+    os.system(f'mkdir -p {path}')
+
+    json_name_format = '03-02-2024_14-30-10_person-count-2nd-lane.json'
+    {
+        store_name : 'Zudio-Aeromall',
+        store_code : 'abc',
+        camera_no : '3',
+        date_time : '03-02-2024_14-30-10',
+        count : '0',
+    }
+
+3) commands to install dependencies
